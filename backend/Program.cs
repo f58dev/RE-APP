@@ -2,8 +2,20 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp",
+        policy =>
+        {
+            policy.WithOrigins("https://localhost:5001")
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
+builder.Services.AddControllers();
 var app = builder.Build();
+
+app.UseCors("AllowReactApp");
 
 if (app.Environment.IsDevelopment())
 {
@@ -12,7 +24,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.MapControllers();
 var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
