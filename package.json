@@ -1,0 +1,20 @@
+{
+  "name": "rea",
+  "version": "1.0.0",
+  "description": "## Overview Real Estate App (REA) is a full-stack web application designed to simplify the process of searching, listing, and managing properties. It serves both real estate buyers and sellers with a user-friendly interface and powerful features such as property filtering, image uploads, interactive maps, and secure user authentication.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f58dev/Trvl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f58dev/Trvl/issues"
+  },
+  "homepage": "https://github.com/f58dev/Trvl#readme"
+}
