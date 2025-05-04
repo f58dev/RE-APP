@@ -466,11 +466,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/caseyharper/vscode/code/Projects/MyProject/backend/backend.csproj",
+      "projectUniqueName": "/Users/caseyharper/vscode/code/Projects/REA/backend/backend.csproj",
       "projectName": "backend",
-      "projectPath": "/Users/caseyharper/vscode/code/Projects/MyProject/backend/backend.csproj",
+      "projectPath": "/Users/caseyharper/vscode/code/Projects/REA/backend/backend.csproj",
       "packagesPath": "/Users/caseyharper/.nuget/packages/",
-      "outputPath": "/Users/caseyharper/vscode/code/Projects/MyProject/backend/obj/",
+      "outputPath": "/Users/caseyharper/vscode/code/Projects/REA/backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/caseyharper/.nuget/NuGet/NuGet.Config"
