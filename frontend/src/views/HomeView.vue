@@ -1,6 +1,9 @@
 <template>
   <div>
     <h1>All Properties</h1>
+    <router-link to="/add">
+  <button>Add New Property</button>
+</router-link>
     <ul>
       <li v-for="property in properties" :key="property.id">
         <strong>{{ property.name }}</strong> - {{ property.pricePerNight }}$

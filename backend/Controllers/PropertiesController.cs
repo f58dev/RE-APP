@@ -43,5 +43,12 @@ namespace backend.Controllers
             properties.Remove(property);
             return NoContent();
         }
+        [HttpPost]
+public IActionResult AddProperty(Property newProperty)
+{
+    newProperty.Id = properties.Max(p => p.Id) + 1;
+    properties.Add(newProperty);
+    return CreatedAtAction(nameof(GetAllProperties), new { id = newProperty.Id }, newProperty);
+}
     }
 }
