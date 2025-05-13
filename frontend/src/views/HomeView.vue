@@ -9,6 +9,7 @@
         <strong>{{ property.name }}</strong> - {{ property.pricePerNight }}$
         <button @click="deleteProperty(property.id)">Delete</button>
         <p>{{ property.description }}</p>
+        
       </li>
     </ul>
   </div>
