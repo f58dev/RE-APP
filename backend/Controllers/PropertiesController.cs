@@ -24,6 +24,14 @@ namespace backend.Controllers
                 Location = "Manama",
                 PricePerNight = 1292.21m,
                 Description = "Fully furnished apartment suitable for families"
+            },
+            new Property
+            {
+                Id = 3,
+                Name = "Sea View",
+                Location = "Saar",
+                PricePerNight = 120.87m,
+                Description = "5-star hotel with a sea view"
             }
         };
 
