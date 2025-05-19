@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/caseyharper/vscode/code/Projects/REA/backend/backend.csproj": {}
+    "/home/f58dev/Documents/RE-APP/backend/backend.csproj": {}
   },
   "projects": {
-    "/Users/caseyharper/vscode/code/Projects/REA/backend/backend.csproj": {
+    "/home/f58dev/Documents/RE-APP/backend/backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/caseyharper/vscode/code/Projects/REA/backend/backend.csproj",
+        "projectUniqueName": "/home/f58dev/Documents/RE-APP/backend/backend.csproj",
         "projectName": "backend",
-        "projectPath": "/Users/caseyharper/vscode/code/Projects/REA/backend/backend.csproj",
-        "packagesPath": "/Users/caseyharper/.nuget/packages/",
-        "outputPath": "/Users/caseyharper/vscode/code/Projects/REA/backend/obj/",
+        "projectPath": "/home/f58dev/Documents/RE-APP/backend/backend.csproj",
+        "packagesPath": "/home/f58dev/.nuget/packages/",
+        "outputPath": "/home/f58dev/Documents/RE-APP/backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/caseyharper/.nuget/NuGet/NuGet.Config"
+          "/home/f58dev/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -32,21 +32,15 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -72,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

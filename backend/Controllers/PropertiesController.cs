@@ -32,6 +32,13 @@ namespace backend.Controllers
                 Location = "Saar",
                 PricePerNight = 120.87m,
                 Description = "5-star hotel with a sea view"
+            },
+            new Property{
+                 Id = 4,
+                Name = "High View",
+                Location = "New York City",
+                PricePerNight = 304.87m,
+                Description = "5-star Time Square View"
             }
         };
 
